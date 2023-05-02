@@ -1,0 +1,2287 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:92d5fe6a-4d7c-4d3f-adbb-41e8399f72bc",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-05-02T18:10:46Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.42.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "5686868dcb81f284",
+      "type": "file",
+      "name": "/root/Desktop/OpenstackAnsibleTest"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "GitPython",
+      "version": "1.0.1",
+      "cpe": "cpe:2.3:a:python-GitPython:python-GitPython:1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/GitPython@1.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-index-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-GitPython:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_GitPython:python-GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_GitPython:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:GitPython:python-GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:GitPython:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-GitPython:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_GitPython:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:GitPython:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "requirements.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Sebastian Thiel, Michael Trier \u003cbyronimo@gmail.com, mtrier@gmail.com\u003e",
+      "name": "GitPython",
+      "version": "1.0.1",
+      "cpe": "cpe:2.3:a:sebastian_thiel\\,_michael_trier:python-GitPython:1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/GitPython@1.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sebastian_thiel\\,_michael_trier:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sebastian_thiel\\,_michael_trier:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-GitPython:python-GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-GitPython:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_GitPython:python-GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_GitPython:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:GitPython:python-GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:GitPython:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-GitPython:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_GitPython:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byronimo:python-GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byronimo:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:GitPython:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byronimo:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:GitPython:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/GitPython-1.0.1.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/GitPython-1.0.1.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/GitPython-1.0.1.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "PyYAML",
+      "version": "3.12",
+      "cpe": "cpe:2.3:a:python-PyYAML:python-PyYAML:3.12:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/PyYAML@3.12",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-index-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-PyYAML:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_PyYAML:python-PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_PyYAML:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:PyYAML:python-PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:PyYAML:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-PyYAML:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_PyYAML:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:PyYAML:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "requirements.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Kirill Simonov \u003cxi@resolvent.net\u003e",
+      "name": "PyYAML",
+      "version": "3.12",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:kirill_simonov:python-PyYAML:3.12:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/PyYAML@3.12",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kirill_simonov:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-PyYAML:python-PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-PyYAML:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_PyYAML:python-PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_PyYAML:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kirill_simonov:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:PyYAML:python-PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:PyYAML:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-PyYAML:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_PyYAML:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xi:python-PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xi:python_PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:PyYAML:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xi:PyYAML:3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/PyYAML-3.12.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/PyYAML-3.12.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/PyYAML-3.12.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "ansible-lint",
+      "version": "5.3.2",
+      "cpe": "cpe:2.3:a:python-ansible-lint:python-ansible-lint:5.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/ansible-lint@5.3.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-index-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-ansible-lint:python_ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_ansible_lint:python-ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_ansible_lint:python_ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-ansible:python-ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-ansible:python_ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_ansible:python-ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_ansible:python_ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible-lint:python-ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible-lint:python_ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible_lint:python-ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible_lint:python_ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-ansible-lint:ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-ansible-lint:ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_ansible_lint:ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_ansible_lint:ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible:python-ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible:python_ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-ansible:ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-ansible:ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_ansible:ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_ansible:ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible-lint:ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible-lint:ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible_lint:ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible_lint:ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible:ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ansible:ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:ansible-lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:ansible_lint:5.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "test-requirements.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Armin Rigo, Maciej Fijalkowski \u003cpython-cffi@googlegroups.com\u003e",
+      "name": "cffi",
+      "version": "1.15.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:armin_rigo\\,_maciej_fijalkowski:python-cffi:1.15.1:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/cffi@1.15.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:armin_rigo\\,_maciej_fijalkowski:python_cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:armin_rigo\\,_maciej_fijalkowski:cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-cffi:python-cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-cffi:python_cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_cffi:python-cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_cffi:python_cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cffi:python-cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cffi:python_cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-cffi:cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_cffi:cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cffi:cffi:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/cffi-1.15.1.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/cffi-1.15.1.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/cffi-1.15.1.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "The Python Cryptographic Authority and individual contributors \u003ccryptography-dev@python.org\u003e",
+      "name": "cryptography",
+      "version": "40.0.2",
+      "cpe": "cpe:2.3:a:python_cryptographic_authority_and_individual_contributors:python-cryptography:40.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/cryptography@40.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_cryptographic_authority_and_individual_contributors:python_cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_cryptographic_authority_and_individual_contributors:cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-cryptography:python-cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-cryptography:python_cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_cryptography:python-cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_cryptography:python_cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cryptography-dev:python-cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cryptography-dev:python_cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cryptography_dev:python-cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cryptography_dev:python_cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cryptography:python-cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cryptography:python_cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-cryptography:cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_cryptography:cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cryptography-dev:cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cryptography_dev:cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cryptography:cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:cryptography:40.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/cryptography-40.0.2.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/cryptography-40.0.2.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/cryptography-40.0.2.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "flake8",
+      "version": "3.8.3",
+      "cpe": "cpe:2.3:a:python-flake8:python-flake8:3.8.3:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/flake8@3.8.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-index-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flake8:python_flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flake8:python-flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flake8:python_flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flake8:python-flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flake8:python_flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flake8:flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flake8:flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flake8:flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:flake8:3.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "test-requirements.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Sebastian Thiel \u003cbyronimo@gmail.com\u003e",
+      "name": "gitdb",
+      "version": "4.0.10",
+      "cpe": "cpe:2.3:a:sebastian_thiel:python-gitdb:4.0.10:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/gitdb@4.0.10",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sebastian_thiel:python_gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-gitdb:python-gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-gitdb:python_gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_gitdb:python-gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_gitdb:python_gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byronimo:python-gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byronimo:python_gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sebastian_thiel:gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gitdb:python-gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gitdb:python_gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-gitdb:gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_gitdb:gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byronimo:gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gitdb:gitdb:4.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/gitdb-4.0.10.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/gitdb-4.0.10.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/gitdb-4.0.10.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "James Saryerwinnie \u003cjs@jamesls.com\u003e",
+      "name": "jmespath",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:james_saryerwinnie:python-jmespath:1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/jmespath@1.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:james_saryerwinnie:python_jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-jmespath:python-jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-jmespath:python_jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_jmespath:python-jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_jmespath:python_jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:james_saryerwinnie:jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jmespath:python-jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jmespath:python_jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-jmespath:jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_jmespath:jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:js:python-jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:js:python_jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jmespath:jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:js:jmespath:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/jmespath-1.0.1.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/jmespath-1.0.1.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/jmespath-1.0.1.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "David P. D. Moss, Stefan Nordhausen et al \u003cdrkjam@gmail.com\u003e",
+      "name": "netaddr",
+      "version": "0.8.0",
+      "cpe": "cpe:2.3:a:david_p__d__moss\\,_stefan_nordhausen_et_al:python-netaddr:0.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/netaddr@0.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:david_p__d__moss\\,_stefan_nordhausen_et_al:python_netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:david_p__d__moss\\,_stefan_nordhausen_et_al:netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-netaddr:python-netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-netaddr:python_netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_netaddr:python-netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_netaddr:python_netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netaddr:python-netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netaddr:python_netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-netaddr:netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_netaddr:netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:drkjam:python-netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:drkjam:python_netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netaddr:netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:drkjam:netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:netaddr:0.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/netaddr-0.8.0.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/netaddr-0.8.0.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/netaddr-0.8.0.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "The pip developers \u003cdistutils-sig@python.org\u003e",
+      "name": "pip",
+      "version": "23.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:pip_developers:python-pip:23.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/pip@23.1.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers:python_pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils-sig:python-pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils-sig:python_pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils_sig:python-pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils_sig:python_pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pip:python-pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pip:python_pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pip:python-pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pip:python_pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers:pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils-sig:pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils_sig:pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip:python-pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip:python_pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pip:pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pip:pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip:pip:23.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/pip-23.1.2.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/pip-23.1.2.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/pip-23.1.2.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Luke Maurits \u003cluke@maurits.id.au\u003e",
+      "name": "prettytable",
+      "version": "3.7.0",
+      "cpe": "cpe:2.3:a:luke-maurits-\\\u003cluke:python-prettytable:3.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/prettytable@3.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:luke-maurits-\\\u003cluke:python_prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:luke_maurits_\\\u003cluke:python-prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:luke_maurits_\\\u003cluke:python_prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-prettytable:python-prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-prettytable:python_prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_prettytable:python-prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_prettytable:python_prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:luke-maurits-\\\u003cluke:prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:luke_maurits_\\\u003cluke:prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:prettytable:python-prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:prettytable:python_prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-prettytable:prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_prettytable:prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:prettytable:prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:prettytable:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/prettytable-3.7.0.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/prettytable-3.7.0.dist-info/RECORD"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pyOpenSSL",
+      "version": "17.1.0",
+      "cpe": "cpe:2.3:a:python-pyOpenSSL:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/pyOpenSSL@17.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-index-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pyOpenSSL:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyOpenSSL:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyOpenSSL:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyOpenSSL:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyOpenSSL:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pyOpenSSL:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyOpenSSL:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyOpenSSL:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "requirements.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Hynek Schlawack \u003chs@ox.cx\u003e",
+      "name": "pyOpenSSL",
+      "version": "17.1.0",
+      "cpe": "cpe:2.3:a:python-pyOpenSSL:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/pyOpenSSL@17.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pyOpenSSL:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyOpenSSL:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyOpenSSL:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hynek_schlawack:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hynek_schlawack:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyOpenSSL:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyOpenSSL:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pyOpenSSL:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyOpenSSL:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hynek_schlawack:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hs:python-pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hs:python_pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyOpenSSL:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hs:pyOpenSSL:17.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/pyOpenSSL-17.1.0.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/pyOpenSSL-17.1.0.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/pyOpenSSL-17.1.0.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Ilya Etingof \u003cetingof@gmail.com\u003e",
+      "name": "pyasn1",
+      "version": "0.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:python-pyasn1:python-pyasn1:0.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/pyasn1@0.5.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pyasn1:python_pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyasn1:python-pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyasn1:python_pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ilya_etingof:python-pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ilya_etingof:python_pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:etingof:python-pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:etingof:python_pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyasn1:python-pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyasn1:python_pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pyasn1:pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyasn1:pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ilya_etingof:pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:etingof:pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyasn1:pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pyasn1:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/pyasn1-0.5.0.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/pyasn1-0.5.0.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/pyasn1-0.5.0.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Eli Bendersky \u003celiben@gmail.com\u003e",
+      "name": "pycparser",
+      "version": "2.21",
+      "cpe": "cpe:2.3:a:python-pycparser:python-pycparser:2.21:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/pycparser@2.21",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pycparser:python_pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pycparser:python-pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pycparser:python_pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eli_bendersky:python-pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eli_bendersky:python_pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pycparser:python-pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pycparser:python_pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pycparser:pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pycparser:pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eli_bendersky:pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eliben:python-pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eliben:python_pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pycparser:pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eliben:pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pycparser:2.21:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/pycparser-2.21.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/pycparser-2.21.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/pycparser-2.21.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Sean Reifschneider \u003cjafo@tummy.com\u003e",
+      "name": "python-memcached",
+      "version": "1.59",
+      "cpe": "cpe:2.3:a:sean_reifschneider:python-memcached:1.59:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/python-memcached@1.59",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sean_reifschneider:python_memcached:1.59:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-memcached:python-memcached:1.59:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-memcached:python_memcached:1.59:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_memcached:python-memcached:1.59:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_memcached:python_memcached:1.59:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-memcached:1.59:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_memcached:1.59:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jafo:python-memcached:1.59:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jafo:python_memcached:1.59:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/python_memcached-1.59.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/python_memcached-1.59.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/python_memcached-1.59.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Python Packaging Authority \u003cdistutils-sig@python.org\u003e",
+      "name": "setuptools",
+      "version": "67.7.2",
+      "cpe": "cpe:2.3:a:python_packaging_authority:python-setuptools:67.7.2:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/setuptools@67.7.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_packaging_authority:python_setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_packaging_authority:setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-setuptools:python-setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-setuptools:python_setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_setuptools:python-setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_setuptools:python_setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils-sig:python-setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils-sig:python_setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils_sig:python-setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils_sig:python_setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-setuptools:setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_setuptools:setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:setuptools:python-setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:setuptools:python_setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils-sig:setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:distutils_sig:setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:setuptools:setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:setuptools:67.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/setuptools-67.7.2.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/setuptools-67.7.2.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/setuptools-67.7.2.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Benjamin Peterson \u003cbenjamin@python.org\u003e",
+      "name": "six",
+      "version": "1.16.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:benjamin_peterson:python-six:1.16.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/six@1.16.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:benjamin_peterson:python_six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:benjamin_peterson:six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-six:python-six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-six:python_six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_six:python-six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_six:python_six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:benjamin:python-six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:benjamin:python_six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-six:six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_six:six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:six:python-six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:six:python_six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:benjamin:six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:six:six:1.16.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/six-1.16.0.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/six-1.16.0.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/six-1.16.0.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Sebastian Thiel \u003cbyronimo@gmail.com\u003e",
+      "name": "smmap",
+      "version": "5.0.0",
+      "cpe": "cpe:2.3:a:sebastian_thiel:python-smmap:5.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/smmap@5.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sebastian_thiel:python_smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-smmap:python-smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-smmap:python_smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_smmap:python-smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_smmap:python_smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byronimo:python-smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byronimo:python_smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sebastian_thiel:smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-smmap:smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_smmap:smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:smmap:python-smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:smmap:python_smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byronimo:smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:smmap:smmap:5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/smmap-5.0.0.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/smmap-5.0.0.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/smmap-5.0.0.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Jeff Quast \u003ccontact@jeffquast.com\u003e",
+      "name": "wcwidth",
+      "version": "0.2.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:python-wcwidth:python-wcwidth:0.2.6:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/wcwidth@0.2.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-wcwidth:python_wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_wcwidth:python-wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_wcwidth:python_wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jeff_quast:python-wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jeff_quast:python_wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:contact:python-wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:contact:python_wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-wcwidth:wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_wcwidth:wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wcwidth:python-wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wcwidth:python_wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jeff_quast:wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:contact:wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wcwidth:wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:wcwidth:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "venv/Lib/site-packages/wcwidth-0.2.6.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "venv/Lib/site-packages/wcwidth-0.2.6.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "venv/Lib/site-packages/wcwidth-0.2.6.dist-info/top_level.txt"
+        }
+      ]
+    }
+  ]
+}
